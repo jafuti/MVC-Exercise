@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Welcome Contact Page</h2>
+@{ 
+    ViewBag.Title = "User Contact List";
+    ViewBag.List = new List<string>() {"Jafar", "Abebe" };
+    Html.RenderPartial("ListPartial");
+}
+

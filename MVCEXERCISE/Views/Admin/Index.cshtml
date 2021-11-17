@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+ViewBag.Title = "Admin Contact List";
+ViewBag.List = new List<string>() { "Eyob", "Abebe" };
+Html.RenderPartial("ListPartial");
+}
